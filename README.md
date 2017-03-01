@@ -85,7 +85,6 @@ var bar = obj1.foo()
 var bar = foo()
   - 绑定的例外：
     - call(null),apply(null) 实际应用默认绑定规则
-    - 
   ```javascript
   function foo() {
       console.log( this.a );
